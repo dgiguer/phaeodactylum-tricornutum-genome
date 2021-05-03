@@ -13,7 +13,15 @@ This repository is a supplement for paper Telomere-to-telomere genome assembly o
 
 All sequencing files can be found on the European Nucleotide Archive under study accession ERP126598. 
 
-All scripts to reproduce the images found in `figs` are available under `chunk`, using data from the `data` folder.
+All scripts to reproduce the images found in `figs` are available under `chunk`, using data from the `data` folder. Large files need to be unzipped before running the scripts. 
+
+```
+cd data
+gunzip final_alignments.paf.zip
+gunzip final_pt_april_30_final.fasta.zip
+modified_bases.re_aggregated.5mC.bed.zip
+pt_reference_single_line.fa.zip
+```
 
 
 
